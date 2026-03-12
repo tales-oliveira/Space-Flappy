@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space Flappy | Tales Oliveira</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>🚀 Space Flappy 🚀</h1>
+    
+    <!-- Menu do jogo -->
+    <div class="menu" id="menu">
+        <h2>Selecione a Fase</h2>
+        <button class="btn" onclick="selectPhase(1)">Fase 1 - Desvio</button>
+        <button class="btn" onclick="selectPhase(2)">Fase 2 - Combate</button>
+        <div class="instructions">
+            <h3>Instruções:</h3>
+            <p>Fase 1: Pule com ESPAÇO ou CLIQUE</p>
+            <p>Fase 2: Mova com W/S ou ↑/↓ e atire com ESPAÇO</p>
+            
+            <div class="high-score">
+                <p>🏆 Recorde: <span id="highScoreDisplay">0</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Área do jogo (inicialmente oculta) -->
+    <div class="game-container" id="gameContainer" style="display: none;">
+        <canvas id="gameCanvas" width="600" height="400"></canvas>
+        <div class="game-info">
+            <p>Fase: <span id="phaseDisplay">1</span></p>
+            <p>Pontuação: <span id="score">0</span></p>
+            <p id="enemiesLeft" style="display: none;">Inimigos: <span id="enemyCount">10</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1a1a2e;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffd700;
+    text-shadow: 3px 3px 0 #ff4500;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.menu {
+    background-color: #16213e;
+    padding: 40px;
+    border-radius: 10px;
+    border: 3px solid #ffd700;
+    text-align: center;
+    max-width: 500px;
+}
+
+.menu h2 {
+    color: #ffd700;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #ffd700;
+    color: #1a1a2e;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s;
+    border: 2px solid #ff4500;
+}
+
+.btn:hover {
+    background-color: #ff4500;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.instructions {
+    margin-top: 30px;
+    text-align: left;
+    background-color: #0f3460;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.instructions h3 {
+    color: #ffd700;
+    margin-bottom: 15px;
+}
+
+.instructions p {
+    margin: 10px 0;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.game-container {
+    text-align: center;
+}
+
+canvas {
+    border: 3px solid #ffd700;
+    background: linear-gradient(to bottom, #87CEEB, #98D8E8);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+.game-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: #16213e;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid #ffd700;
+}
+
+.game-info p {
+    margin: 0;
+}
+
+#phaseDisplay {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+#score {
+    color: #ff4500;
+    font-weight: bold;
+}
+
+#enemyCount {
+    color: #ff4500;
+    font-weight: bold;
+}
+
+
+.high-score {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffd700;
+    color: #1a1a2e;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 2px solid #ff4500;
+}
+
+.high-score p {
+    margin: 0;
+}
+
+#highScoreDisplay {
+    color: #ff4500;
+    font-weight: bold;
+    font-size: 18px;
+}
