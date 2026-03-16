@@ -12,7 +12,7 @@ Projeto antigo de um jogo simples inspirado nos clássicos de "space shooters" e
 O menu contém as instruções de jogo, um seletor de fases e o recorde da fase 2.
 
 <p align="center">
-  <img src="Imagens/flappy_menu" width="400">
+  <img src="Imagens/flappy_menu.jpg" width="400">
 </p>
 
 ### Gameplay
